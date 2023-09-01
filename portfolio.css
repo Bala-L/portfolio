@@ -393,7 +393,7 @@ padding:7px;
 }
 .my{
     height:300px;
-    margin-left: 35rem;    margin-top:-200px; 
+    margin-left:75  px;    margin-top:-200px; 
  padding:  10rem 0 0 0;
 }
 .mp{
@@ -737,6 +737,7 @@ justify-content: center;
 margin-left: 0px;
 }
 .contact .con{
+    margin-left: 20px;
     font-size: 2.1rem;
     margin-bottom: 1rem;
 }
@@ -765,9 +766,10 @@ padding:7px;
     margin-left: -20px;
 }
 .my {
+
     height: 300px;
     width:350px;
-    margin-left: 20px;
+    
 }
 .my .mp{
     font-size:1.2rem;
