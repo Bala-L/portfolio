@@ -9,12 +9,13 @@ body{
 }
 
 .user img{
-    background: yellow;
+    /* background: yellow; */
     height:200px;
     width:200px;
+    border:inset 2px 2px 2px rgb(221, 18, 18);
     border-radius: 50%;
 }
-.name{
+.name{   
     color:yellow;
     font-size: 1.8em;    
 }
@@ -761,7 +762,7 @@ padding:7px;
     width:200px;
     height: 30px;
     background-color: green;
-    /* border: 2px  solid rgb(145, 3, 3); */
+    border: 2px  solid rgb(145, 3, 3);
     border-radius: 6px;
     margin-left: -20px;
 }
