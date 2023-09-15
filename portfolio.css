@@ -12,7 +12,7 @@ body{
     /* background: yellow; */
     height:200px;
     width:200px;
-    border:inset 2px 2px 2px rgb(221, 18, 18);
+    /* border:inset 2px 2px 2px rgb(18, 221, 218); */
     border-radius: 50%;
 }
 .name{   
@@ -317,12 +317,19 @@ width:350px;
     padding:  7rem 0 0 0;
     height: fit-content;   
 }
+.pro img{
+    height:200px;
+    width:300px;
+    margin-left: 10px;
+    object-fit: scale-down;
+}
+
 .pro{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
-.proj{height:400px;
-    width:250px;
+.proj{height:500px;
+    width:350px;
     /* border: 1px solid rgb(187, 70, 70); */
     /* box-shadow: 0px 0px  4px 4px   rgb(94, 91, 91) ; */
     /* background-color: rgb(24, 22, 22); */
@@ -342,7 +349,9 @@ font-size: 1.8rem;
     padding:8px;
     margin-top: 15px;
 }
-
+.view1{
+    margin-left: 50px;
+}
 
 
 
@@ -386,7 +395,7 @@ padding:7px;
 
 }
 .sub{
-    width:200px;
+    width:150px;
     height: 30px;
     background-color: green;
     border-radius: 6px;
@@ -394,8 +403,7 @@ padding:7px;
 }
 .my{
     height:300px;
-    margin-left:75  px;    margin-top:-200px; 
- padding:  10rem 0 0 0;
+    padding: 10px;
 }
 .mp{
     font-size: 1.8rem;
@@ -696,12 +704,12 @@ width:350px;
         display: flex;
         flex-direction: column;
     }
-    .proj{height:400px;
+    .proj{height:500px;
         width:250px;
         /* border: 1px solid rgb(187, 70, 70); */
         /* box-shadow: 0px 0px  4px 4px   rgb(94, 91, 91) ; */
         /* background-color: rgb(24, 22, 22); */
-        border: 4px solid rgb(6, 5, 5);
+        border: 4px solid rgb(29, 22, 22);
         border-radius: 5px;
         margin:50px 10px 20px 0px;
         
@@ -717,7 +725,11 @@ width:350px;
         padding:8px;
         margin-top: 15px;
     }
-    
+    .pro img{
+        height: 200px;
+        width:220px;
+        margin-left: 10px;
+    }
 
 
 
@@ -725,8 +737,9 @@ width:350px;
 
 .contact{
     margin-left: 60px;   
-    padding:  10rem 0 0 0;
+    padding:10px  ;
  height: 100vh; 
+
 } 
 .form{
 width:100%;    height:500px;
